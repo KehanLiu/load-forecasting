@@ -1,0 +1,36 @@
+epoch50 DHW_3 12.12.2018
+Best: -0.6242171297341665 using {'batch_size': 128, 'dropout_rate': 0.7, 'learning_rate': 0.1, 'nb_hidden_layers': 2, 'nb_hidden_neurons': 50}
+-0.626722 (0.009266) with: {'batch_size': 16, 'dropout_rate': 0.7, 'learning_rate': 0.001, 'nb_hidden_layers': 2, 'nb_hidden_neurons': 30}
+-0.625559 (0.007513) with: {'batch_size': 16, 'dropout_rate': 0.7, 'learning_rate': 0.001, 'nb_hidden_layers': 2, 'nb_hidden_neurons': 50}
+-0.629835 (0.010683) with: {'batch_size': 16, 'dropout_rate': 0.7, 'learning_rate': 0.001, 'nb_hidden_layers': 3, 'nb_hidden_neurons': 30}
+-0.626209 (0.007739) with: {'batch_size': 16, 'dropout_rate': 0.7, 'learning_rate': 0.001, 'nb_hidden_layers': 3, 'nb_hidden_neurons': 50}
+-0.626177 (0.009258) with: {'batch_size': 16, 'dropout_rate': 0.7, 'learning_rate': 0.1, 'nb_hidden_layers': 2, 'nb_hidden_neurons': 30}
+-0.624630 (0.007360) with: {'batch_size': 16, 'dropout_rate': 0.7, 'learning_rate': 0.1, 'nb_hidden_layers': 2, 'nb_hidden_neurons': 50}
+-0.626881 (0.007848) with: {'batch_size': 16, 'dropout_rate': 0.7, 'learning_rate': 0.1, 'nb_hidden_layers': 3, 'nb_hidden_neurons': 30}
+-0.626624 (0.007806) with: {'batch_size': 16, 'dropout_rate': 0.7, 'learning_rate': 0.1, 'nb_hidden_layers': 3, 'nb_hidden_neurons': 50}
+-0.626884 (0.008737) with: {'batch_size': 128, 'dropout_rate': 0.7, 'learning_rate': 0.001, 'nb_hidden_layers': 2, 'nb_hidden_neurons': 30}
+-0.625117 (0.007772) with: {'batch_size': 128, 'dropout_rate': 0.7, 'learning_rate': 0.001, 'nb_hidden_layers': 2, 'nb_hidden_neurons': 50}
+-0.629252 (0.007679) with: {'batch_size': 128, 'dropout_rate': 0.7, 'learning_rate': 0.001, 'nb_hidden_layers': 3, 'nb_hidden_neurons': 30}
+-0.624277 (0.007483) with: {'batch_size': 128, 'dropout_rate': 0.7, 'learning_rate': 0.001, 'nb_hidden_layers': 3, 'nb_hidden_neurons': 50}
+-0.627068 (0.010145) with: {'batch_size': 128, 'dropout_rate': 0.7, 'learning_rate': 0.1, 'nb_hidden_layers': 2, 'nb_hidden_neurons': 30}
+-0.624217 (0.007463) with: {'batch_size': 128, 'dropout_rate': 0.7, 'learning_rate': 0.1, 'nb_hidden_layers': 2, 'nb_hidden_neurons': 50}
+-0.631915 (0.009318) with: {'batch_size': 128, 'dropout_rate': 0.7, 'learning_rate': 0.1, 'nb_hidden_layers': 3, 'nb_hidden_neurons': 30}
+-0.625602 (0.009718) with: {'batch_size': 128, 'dropout_rate': 0.7, 'learning_rate': 0.1, 'nb_hidden_layers': 3, 'nb_hidden_neurons': 50}
+-0.641304 (0.015711) with: {'batch_size': 512, 'dropout_rate': 0.7, 'learning_rate': 0.001, 'nb_hidden_layers': 2, 'nb_hidden_neurons': 30}
+-0.634120 (0.007550) with: {'batch_size': 512, 'dropout_rate': 0.7, 'learning_rate': 0.001, 'nb_hidden_layers': 2, 'nb_hidden_neurons': 50}
+-0.686497 (0.014035) with: {'batch_size': 512, 'dropout_rate': 0.7, 'learning_rate': 0.001, 'nb_hidden_layers': 3, 'nb_hidden_neurons': 30}
+-0.640153 (0.003996) with: {'batch_size': 512, 'dropout_rate': 0.7, 'learning_rate': 0.001, 'nb_hidden_layers': 3, 'nb_hidden_neurons': 50}
+-0.647567 (0.006972) with: {'batch_size': 512, 'dropout_rate': 0.7, 'learning_rate': 0.1, 'nb_hidden_layers': 2, 'nb_hidden_neurons': 30}
+-0.632765 (0.008864) with: {'batch_size': 512, 'dropout_rate': 0.7, 'learning_rate': 0.1, 'nb_hidden_layers': 2, 'nb_hidden_neurons': 50}
+-0.702415 (0.008775) with: {'batch_size': 512, 'dropout_rate': 0.7, 'learning_rate': 0.1, 'nb_hidden_layers': 3, 'nb_hidden_neurons': 30}
+-0.635286 (0.004898) with: {'batch_size': 512, 'dropout_rate': 0.7, 'learning_rate': 0.1, 'nb_hidden_layers': 3, 'nb_hidden_neurons': 50}
+
+
+
+
+
+
+
+
+
+
