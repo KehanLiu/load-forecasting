@@ -1,0 +1,222 @@
+lstm_ukdale_1_watthours_granu300_hor1440_lb60_drop0_pdflen200_sigmoid_lay50-1,ukdale_1,300,1440,60,(50, 1),watthours,5.267211914,5.262864113
+lstm_ukdale_1_watthours_granu300_hor1440_lb60_drop0_pdflen200_sigmoid_lay50-1,ukdale_1,300,1440,60,(50, 1),watthours,5.274902821,5.271793842
+lstm_ukdale_1_watthours_granu300_hor1440_lb60_drop0_pdflen200_sigmoid_lay50-1,ukdale_1,300,1440,60,(50, 1),watthours,5.268279076,5.264369488
+lstm_ukdale_1_watthours_granu300_hor1440_lb60_drop0_pdflen200_sigmoid_lay50-1,ukdale_1,300,1440,60,(50, 1),watthours,5.273071766,5.269730568
+lstm_ukdale_1_watthours_granu300_hor1440_lb60_drop0_pdflen200_sigmoid_lay50-1,ukdale_1,300,1440,60,(50, 1),watthours,5.269563198,5.265850067
+lstm__granu300_hor1440_lb60_drop0_pdflen200_sigmoid_lay50-1,ukdale_1,300,1440,60,(50, 1),watthours,5.267603874,5.263228416
+lstm__granu300_hor1440_lb60_drop0_pdflen200_sigmoid_lay50-1,ukdale_1,300,1440,60,(50, 1),watthours,5.212524891,5.205837727
+lstm__granu300_hor1440_lb60_drop0_pdflen200_sigmoid_lay50-1,ukdale_1,300,1440,60,(50, 1),watthours,5.078574926,5.060822487
+lstm__granu300_hor1440_lb60_drop0_pdflen200_sigmoid_lay50-1,ukdale_1,300,1440,60,(50, 1),watthours,4.956852847,4.9501791
+lstm__granu300_hor5_lb60_drop0_pdflen200_sigmoid_cal_lay40-40-40,300,5,60,(40,40, 40),watthours,4.072274134,3.79603076
+lstm__granu300_hor5_lb60_drop0_pdflen200_sigmoid_cal_lay40-40-40,300,5,60,(40,40, 40),watthours,1.301071591,1.125869751
+lstm__granu300_hor5_lb60_drop0.2_pdflen200_sigmoid_cal_lay40-40-40,300,5,60,(40,40, 40),watthours,3.60159359,3.237981796
+lstm__granu300_hor5_lb60_drop0.2_pdflen200_sigmoid_cal_lay40-40-40,300,5,60,(40,40, 40),watthours,0.868147018,0.70011735
+lstm__granu300_hor5_lb60_drop0.2_pdflen200_sigmoid_cal_lay40-40-40,300,5,60,(40,40, 40),watthours,0.183258962,0.139499232
+lstm__granu300_hor5_lb60_drop0.2_pdflen200_sigmoid_cal_lay40-40-40,300,5,60,(40,40, 40),watthours,0.048223064,0.033086773
+lstm__granu300_hor5_lb60_drop0.2_pdflen200_sigmoid_cal_lay40-40-40,300,5,60,(40,40, 40),watthours,0.012834663,0.007942058
+lstm__granu300_hor5_lb60_drop0.2_pdflen200_sigmoid_cal_lay40-40-40,300,5,60,(40,40, 40),watthours,0.00344493,0.001875669
+lstm__granu300_hor5_lb60_drop0.2_pdflen200_sigmoid_cal_lay40-40-40,300,5,60,(40,40, 40),watthours,0.000908434,0.000462281
+lstm__granu300_hor5_lb60_drop0.2_pdflen200_sigmoid_cal_lay40-40-40,300,5,60,(40,40, 40),watthours,0.000282527,0.000126131
+lstm__granu300_hor5_lb60_drop0.2_pdflen200_sigmoid_cal_lay40-40-40,300,5,60,(40,40, 40),watthours,9.93E-05,4.14E-05
+lstm__granu300_hor5_lb60_drop0.2_pdflen200_sigmoid_cal_lay40-40-40,300,5,60,(40,40, 40),watthours,4.18E-05,1.79E-05
+lstm__granu300_hor5_lb60_drop0.2_pdflen200_sigmoid_cal_lay40-40-40,300,5,60,(40,40, 40),watthours,1.94E-05,5.96E-07
+lstm__granu300_hor5_lb60_drop0.2_pdflen200_sigmoid_cal_lay40-40-40,300,5,60,(40,40, 40),watthours,8.94E-06,0
+lstm__granu300_hor5_lb60_drop0.2_pdflen200_sigmoid_cal_lay40-40-40,300,5,60,(40,40, 40),watthours,3.96E-06,0
+lstm__granu300_hor5_lb60_drop0.2_pdflen200_sigmoid_cal_lay40-40-40,300,5,60,(40,40, 40),watthours,1.79E-06,0
+lstm__granu300_hor5_lb60_drop0.2_pdflen200_sigmoid_cal_lay40-40-40,300,5,60,(40,40, 40),watthours,1.29E-06,0
+lstm__granu300_hor5_lb60_drop0.2_pdflen200_sigmoid_cal_lay40-40-40,300,5,60,(40,40, 40),watthours,8.65E-07,0
+lstm__granu300_hor5_lb60_drop0.2_pdflen200_sigmoid_cal_lay40-40-40,300,5,60,(40,40, 40),watthours,4.62E-07,0
+lstm__granu300_hor5_lb60_drop0.2_pdflen200_sigmoid_cal_lay40-40-40,300,5,60,(40,40, 40),watthours,6.19E-07,0
+lstm__granu300_hor5_lb60_drop0.2_pdflen200_sigmoid_cal_lay40-40-40,300,5,60,(40,40, 40),watthours,4.35E-07,0
+lstm__granu300_hor5_lb60_drop0.2_pdflen200_sigmoid_cal_lay40-40-40,300,5,60,(40,40, 40),watthours,9.23E-07,0
+lstm__granu300_hor5_lb60_drop0.2_pdflen200_sigmoid_cal_lay40-40-40,300,5,60,(40,40, 40),watthours,4.09E-07,0
+lstm__granu300_hor5_lb60_drop0.2_pdflen1000_sigmoid_cal_lay40-40-40,300,5,60,(40,40, 40),watthours,0.163178416,0.126647979
+lstm__granu300_hor5_lb60_drop0.2_pdflen200_sigmoid_cal_lay40-40-40,300,5,60,(40,40, 40),watthours,5.81E-07,0
+lstm__granu300_hor5_lb60_drop0.2_pdflen1000_sigmoid_cal_lay40-40-40,300,5,60,(40,40, 40),watthours,0.006240809,0.003512885
+lstm__granu300_hor5_lb60_drop0.2_pdflen1000_sigmoid_cal_lay40-40-40,300,5,60,(40,40, 40),watthours,0.005736516,0.003064915
+lstm__granu300_hor5_lb60_drop0.2_pdflen1000_sigmoid_cal_lay40-40-40,300,5,60,(40,40, 40),watthours,0.005056953,0.002682165
+lstm__granu300_hor5_lb60_drop0.2_pdflen1000_sigmoid_cal_lay40-40-40,300,5,60,(40,40, 40),watthours,0.004440016,0.002350769
+lstm__granu300_hor5_lb60_drop0.2_pdflen1000_sigmoid_cal_lay40-40-40,300,5,60,(40,40, 40),watthours,0.003946409,0.002119818
+lstm__granu300_hor5_lb60_drop0.2_pdflen1000_sigmoid_cal_lay40-40-40,300,5,60,(40,40, 40),watthours,0.003558437,0.001885044
+lstm__granu300_hor5_lb60_drop0.2_pdflen1000_sigmoid_cal_lay40-40-40,300,5,60,(40,40, 40),watthours,0.003241411,0.001678146
+lstm__granu300_hor5_lb60_drop0.2_pdflen1000_sigmoid_cal_lay40-40-40,300,5,60,(40,40, 40),watthours,0.002973607,0.001518508
+lstm__granu300_hor5_lb60_drop0.2_pdflen5000_sigmoid_cal_lay40-40-40,300,5,60,(40,40, 40),watthours,0.458467985,0.366816312
+lstm__granu300_hor5_lb60_drop0.2_pdflen5000_sigmoid_cal_lay40-40-40,300,5,60,(40,40, 40),watthours,0.027931212,0.010824979
+lstm__granu300_hor5_lb60_drop0.2_pdflen5000_sigmoid_cal_lay40-40-40,300,5,60,(40,40, 40),watthours,0.013161141,0.001876265
+lstm__granu300_hor1440_lb60_drop0.2_pdflen5000_sigmoid_cal_lay40-40-40,300,5,60,(40,40, 40),watthours,8.513380637,8.503752708
+lstm__granu300_hor1440_lb60_drop0.2_pdflen5000_sigmoid_cal_lay40-40-40,300,5,60,(40,40, 40),watthours,8.501776373,8.486898422
+lstm__granu300_hor1440_lb60_drop0.2_pdflen5000_sigmoid_cal_lay40-40-40,300,10,60,(40,40, 40),watthours,8.485189622,8.46090889
+lstm__granu300_hor1440_lb60_drop0.2_pdflen5000_sigmoid_cal_lay40-40-40,300,15,60,(40,40, 40),watthours,8.45936738,8.420899391
+lstm__granu300_hor1440_lb60_drop0.2_pdflen5000_sigmoid_cal_lay40-40-40,300,20,60,(40,40, 40),watthours,8.422059554,8.368509293
+lstm__granu300_hor1440_lb60_drop0.2_pdflen5000_sigmoid_cal_lay40-40-40,300,25,60,(40,40, 40),watthours,8.367450292,8.279014587
+lstm__granu300_hor1440_lb60_drop0.2_pdflen5000_sigmoid_cal_lay40-40-40,300,30,60,(40,40, 40),watthours,8.279164664,8.147805214
+lstm__granu300_hor1440_lb60_drop0.2_pdflen5000_sigmoid_cal_lay40-40-40,300,35,60,(40,40, 40),watthours,8.151886592,7.984891891
+lstm__granu300_hor1440_lb60_drop0.2_pdflen5000_sigmoid_cal_lay40-40-40,300,40,60,(40,40, 40),watthours,8.002241373,7.819236279
+lstm__granu300_hor1440_lb60_drop0.2_pdflen5000_sigmoid_cal_lay40-40-40,300,45,60,(40,40, 40),watthours,7.843906699,7.643065929
+lstm__granu300_hor1440_lb60_drop0.2_pdflen5000_sigmoid_cal_lay40-40-40,300,50,60,(40,40, 40),watthours,7.667757676,7.425850868
+lstm__granu300_hor1440_lb60_drop0.2_pdflen5000_sigmoid_cal_lay40-40-40,300,55,60,(40,40, 40),watthours,7.464237264,7.259073257
+lstm__granu300_hor1440_lb60_drop0.2_pdflen5000_sigmoid_cal_lay40-40-40,300,60,60,(40,40, 40),watthours,7.292780653,7.056661606
+lstm__granu300_hor1440_lb60_drop0.2_pdflen5000_sigmoid_cal_lay40-40-40,300,65,60,(40,40, 40),watthours,7.100109953,6.866931438
+lstm__granu300_hor1440_lb60_drop0.2_pdflen5000_sigmoid_cal_lay40-40-40,300,70,60,(40,40, 40),watthours,6.914825594,6.682881832
+lstm__granu300_hor1440_lb60_drop0.2_pdflen5000_sigmoid_cal_lay40-40-40,300,75,60,(40,40, 40),watthours,6.727538102,6.469333172
+lstm__granu300_hor1440_lb60_drop0.2_pdflen5000_sigmoid_cal_lay40-40-40,300,80,60,(40,40, 40),watthours,6.50987246,6.248738289
+lstm__granu300_hor1440_lb60_drop0.2_pdflen5000_sigmoid_cal_lay40-40-40,300,85,60,(40,40, 40),watthours,6.295059369,6.020997524
+lstm__granu300_hor60_lb60_drop0.2_pdflen5000_sigmoid_cal_lay40-40-40,300,5,60,(40,40, 40),watthours,8.519032863,8.509305
+lstm__granu300_hor60_lb60_drop0.2_pdflen5000_sigmoid_cal_lay40-40-40,300,5,60,(40,40, 40),watthours,8.507548158,8.497824669
+lstm__granu300_hor60_lb60_drop0.2_pdflen5000_sigmoid_cal_lay40-40-40,300,10,60,(40,40, 40),watthours,8.495731091,8.481965065
+lstm__granu300_hor60_lb60_drop0.2_pdflen5000_sigmoid_cal_lay40-40-40,300,15,60,(40,40, 40),watthours,8.478902807,8.460173607
+lstm__granu300_hor60_lb60_drop0.2_pdflen5000_sigmoid_cal_lay40-40-40,300,20,60,(40,40, 40),watthours,8.454337903,8.426292419
+lstm__granu300_hor60_lb60_drop0.2_pdflen5000_sigmoid_cal_lay40-40-40,300,25,60,(40,40, 40),watthours,8.417638792,8.375061035
+lstm__granu300_hor60_lb60_drop0.2_pdflen5000_sigmoid_cal_lay40-40-40,300,30,60,(40,40, 40),watthours,8.36171027,8.291312218
+lstm__granu300_hor60_lb60_drop0.2_pdflen5000_sigmoid_cal_lay40-40-40,300,35,60,(40,40, 40),watthours,8.272881265,8.16809082
+lstm__granu300_hor60_lb60_drop0.2_pdflen5000_sigmoid_cal_lay40-40-40,300,40,60,(40,40, 40),watthours,8.141080462,8.000002861
+lstm__granu300_hor60_lb60_drop0.2_pdflen5000_sigmoid_cal_lay40-40-40,300,45,60,(40,40, 40),watthours,7.969428952,7.791891098
+lstm__granu300_hor60_lb60_drop0.2_pdflen5000_sigmoid_cal_lay40-40-40,300,50,60,(40,40, 40),watthours,7.756844286,7.560361385
+lstm__granu300_hor60_lb60_drop0.2_pdflen5000_sigmoid_cal_lay40-40-40,300,55,60,(40,40, 40),watthours,7.541004806,7.373128414
+lstm__granu300_hor60_lb60_drop0.2_pdflen5000_sigmoid_cal_lay40-40-40,300,60,60,(40,40, 40),watthours,7.342107714,7.147828102
+lstm__granu300_hor60_lb60_drop0.2_pdflen5000_sigmoid_cal_lay40-40-40,300,5,60,(40,40, 40),watthours,5.119007196,4.922030926
+lstm__granu300_hor60_lb60_drop0.2_pdflen5000_sigmoid_cal_lay40-40-40,300,10,60,(40,40, 40),watthours,3.437570118,3.325790644
+lstm__granu300_hor60_lb60_drop0.2_pdflen5000_sigmoid_cal_lay40-40-40,300,15,60,(40,40, 40),watthours,2.075553278,2.000314951
+lstm__granu300_hor60_lb60_drop0.2_pdflen5000_sigmoid_cal_lay40-40-40,300,20,60,(40,40, 40),watthours,1.099469593,1.052342534
+lstm__granu300_hor60_lb60_drop0.2_pdflen5000_sigmoid_cal_lay40-40-40,300,25,60,(40,40, 40),watthours,0.626576283,0.618638873
+lstm__granu300_hor60_lb60_drop0.2_pdflen5000_sigmoid_cal_lay40-40-40,300,30,60,(40,40, 40),watthours,0.46111995,0.492269993
+lstm__granu300_hor60_lb60_drop0.2_pdflen5000_sigmoid_cal_lay40-40-40,300,35,60,(40,40, 40),watthours,0.415337251,0.461681217
+lstm__granu300_hor60_lb60_drop0.2_pdflen5000_sigmoid_cal_lay40-40-40,300,40,60,(40,40, 40),watthours,0.402139285,0.45431152
+lstm__granu300_hor60_lb60_drop0.2_pdflen5000_sigmoid_cal_lay40-40-40,300,45,60,(40,40, 40),watthours,0.396599147,0.450526565
+lstm__granu300_hor60_lb60_drop0.2_pdflen5000_sigmoid_cal_lay40-40-40,300,50,60,(40,40, 40),watthours,0.397159075,0.448054016
+lstm__granu300_hor60_lb60_drop0.2_pdflen5000_sigmoid_cal_lay40-40-40,300,55,60,(40,40, 40),watthours,0.39607675,0.447114974
+lstm__granu300_hor60_lb60_drop0.2_pdflen5000_sigmoid_cal_lay40-40-40,300,60,60,(40,40, 40),watthours,0.394764123,0.446525514
+lstm__granu300_hor60_lb60_drop0.2_pdflen5000_sigmoid_cal_lay40-40-40,300,5,60,(40,40, 40),watthours,0.394712645,0.446464479
+lstm__granu300_hor60_lb60_drop0.2_pdflen5000_sigmoid_cal_lay40-40-40,300,10,60,(40,40, 40),watthours,0.394928146,0.446559966
+lstm__granu300_hor60_lb60_drop0.2_pdflen5000_sigmoid_cal_lay40-40-40,300,15,60,(40,40, 40),watthours,0.393473325,0.446533173
+lstm__granu300_hor60_lb60_drop0.2_pdflen5000_sigmoid_cal_lay40-40-40,300,20,60,(40,40, 40),watthours,0.395982209,0.446476132
+lstm__granu300_hor60_lb60_drop0.2_pdflen5000_sigmoid_cal_lay40-40-40,300,25,60,(40,40, 40),watthours,0.395697569,0.446248829
+lstm__granu300_hor60_lb60_drop0.2_pdflen5000_sigmoid_cal_lay40-40-40,300,30,60,(40,40, 40),watthours,0.394758778,0.446645766
+lstm__granu300_hor60_lb60_drop0.2_pdflen5000_sigmoid_cal_lay40-40-40,300,35,60,(40,40, 40),watthours,0.396181671,0.445797652
+lstm__granu300_hor60_lb60_drop0.2_pdflen5000_sigmoid_cal_lay40-40-40,300,40,60,(40,40, 40),watthours,0.397726386,0.446039736
+lstm__granu300_hor60_lb60_drop0.2_pdflen5000_sigmoid_cal_lay40-40-40,300,45,60,(40,40, 40),watthours,0.396578611,0.445578247
+lstm__granu300_hor60_lb60_drop0.2_pdflen5000_sigmoid_cal_lay40-40-40,300,50,60,(40,40, 40),watthours,0.394773492,0.445543945
+lstm__granu300_hor60_lb60_drop0.2_pdflen5000_sigmoid_cal_lay40-40-40,300,55,60,(40,40, 40),watthours,0.39422455,0.445206344
+lstm__granu300_hor60_lb60_drop0.2_pdflen5000_sigmoid_cal_lay40-40-40,300,60,60,(40,40, 40),watthours,0.394524717,0.445231855
+lstm__granu300_hor120_lb60_drop0.2_pdflen5000_sigmoid_cal_lay40-40-40,300,5.0,60,(40, 40, 40),watthours,0.7047795259460191,0.7283071875572205
+lstm__granu300_hor120_lb60_drop0.2_pdflen5000_sigmoid_cal_lay40-40-40,300,10.0,60,(40, 40, 40),watthours,0.6839224422380832,0.7167128920555115
+lstm__granu300_hor120_lb60_drop0.2_pdflen5000_sigmoid_cal_lay40-40-40,300,15.0,60,(40, 40, 40),watthours,0.6825005583679572,0.7164941430091858
+lstm__granu300_hor120_lb60_drop0.2_pdflen5000_sigmoid_cal_lay40-40-40,300,20.0,60,(40, 40, 40),watthours,0.6815143998185446,0.7163137793540955
+lstm__granu300_hor120_lb60_drop0.2_pdflen5000_sigmoid_cal_lay40-40-40,300,25.0,60,(40, 40, 40),watthours,0.6829755173457579,0.7167890667915344
+lstm__granu300_hor120_lb60_drop0.2_pdflen5000_sigmoid_cal_lay40-40-40,300,30.0,60,(40, 40, 40),watthours,0.6842415287288766,0.7136170268058777
+lstm__granu300_hor120_lb60_drop0.2_pdflen5000_sigmoid_cal_lay40-40-40,300,35.0,60,(40, 40, 40),watthours,0.6833107082058999,0.7155023813247681
+lstm__granu300_hor120_lb60_drop0.2_pdflen5000_sigmoid_cal_lay40-40-40,300,40.0,60,(40, 40, 40),watthours,0.682287339498761,0.716064453125
+lstm__granu300_hor120_lb60_drop0.2_pdflen5000_sigmoid_cal_lay40-40-40,300,45.0,60,(40, 40, 40),watthours,0.6832007666553216,0.7145944237709045
+lstm__granu300_hor120_lb60_drop0.2_pdflen5000_sigmoid_cal_lay40-40-40,300,50.0,60,(40, 40, 40),watthours,0.68420226344179,0.7152214646339417
+lstm__granu300_hor120_lb60_drop0.2_pdflen5000_sigmoid_cal_lay40-40-40,300,55.0,60,(40, 40, 40),watthours,0.6820317136032858,0.7141668796539307
+lstm__granu300_hor120_lb60_drop0.2_pdflen5000_sigmoid_cal_lay40-40-40,300,60.0,60,(40, 40, 40),watthours,0.6825236329745888,0.7152253985404968
+lstm__granu300_hor120_lb60_drop0.2_pdflen5000_sigmoid_cal_lay40-40-40,300,65.0,60,(40, 40, 40),watthours,0.6823021969449088,0.7142578959465027
+lstm__granu300_hor120_lb60_drop0.2_pdflen5000_sigmoid_cal_lay40-40-40,300,70.0,60,(40, 40, 40),watthours,0.6832363902403505,0.7155759930610657
+lstm__granu300_hor120_lb60_drop0.2_pdflen5000_sigmoid_cal_lay40-40-40,300,75.0,60,(40, 40, 40),watthours,0.6825083078669666,0.7162137031555176
+lstm__granu300_hor120_lb60_drop0.2_pdflen5000_sigmoid_cal_lay40-40-40,300,80.0,60,(40, 40, 40),watthours,0.6807694170292985,0.714712381362915
+lstm__granu300_hor120_lb60_drop0.2_pdflen5000_sigmoid_cal_lay40-40-40,300,85.0,60,(40, 40, 40),watthours,0.6810159605644522,0.7150154709815979
+lstm__granu300_hor120_lb60_drop0.2_pdflen5000_sigmoid_cal_lay40-40-40,300,90.0,60,(40, 40, 40),watthours,0.6808452110863448,0.715219259262085
+lstm__granu300_hor120_lb60_drop0.2_pdflen5000_sigmoid_cal_lay40-40-40,300,95.0,60,(40, 40, 40),watthours,0.6835583138823956,0.7165183424949646
+lstm__granu300_hor120_lb60_drop0.2_pdflen5000_sigmoid_cal_lay40-40-40,300,100.0,60,(40, 40, 40),watthours,0.6787219454111235,0.7077355980873108
+lstm__granu300_hor120_lb60_drop0.2_pdflen5000_sigmoid_cal_lay40-40-40,300,5.0,60,(40, 40, 40),watthours,0.48780530523298976,0.42938369512557983
+lstm__granu300_hor120_lb60_drop0.2_pdflen5000_sigmoid_cal_lay40-40-40,300,10.0,60,(40, 40, 40),watthours,0.48155350802240143,0.431278258562088
+lstm__granu300_hor120_lb60_drop0.2_pdflen5000_sigmoid_cal_lay40-40-40,300,15.0,60,(40, 40, 40),watthours,0.4834345573925405,0.4376600384712219
+lstm__granu300_hor120_lb60_drop0.2_pdflen5000_sigmoid_cal_lay40-40-40,300,20.0,60,(40, 40, 40),watthours,0.48459678668253714,0.42840272188186646
+lstm__granu300_hor120_lb60_drop0.2_pdflen5000_sigmoid_cal_lay40-40-40,300,25.0,60,(40, 40, 40),watthours,0.48506254304634017,0.4322832226753235
+lstm__granu300_hor120_lb60_drop0.2_pdflen5000_sigmoid_cal_lay40-40-40,300,30.0,60,(40, 40, 40),watthours,0.47726696121677736,0.42912670969963074
+lstm__granu300_hor120_lb60_drop0.2_pdflen5000_sigmoid_cal_lay40-40-40,300,35.0,60,(40, 40, 40),watthours,0.4772423812012201,0.42522427439689636
+lstm__granu300_hor120_lb60_drop0.2_pdflen5000_sigmoid_cal_lay40-40-40,300,40.0,60,(40, 40, 40),watthours,0.47184075073843756,0.4249897003173828
+lstm__granu300_hor120_lb60_drop0.2_pdflen5000_sigmoid_cal_lay40-40-40,300,45.0,60,(40, 40, 40),watthours,0.4533263156202171,0.4174722731113434
+lstm__granu300_hor120_lb60_drop0.2_pdflen5000_sigmoid_cal_lay40-40-40,300,50.0,60,(40, 40, 40),watthours,0.44889484228419424,0.43918803334236145
+lstm__granu300_hor120_lb60_drop0.2_pdflen5000_sigmoid_cal_lay40-40-40,300,55.0,60,(40, 40, 40),watthours,0.4428059857837548,0.4429817199707031
+lstm__granu300_hor120_lb60_drop0.2_pdflen5000_sigmoid_cal_lay40-40-40,300,60.0,60,(40, 40, 40),watthours,0.4368834328069556,0.418199360370636
+lstm__granu300_hor120_lb60_drop0.2_pdflen5000_sigmoid_cal_lay40-40-40,300,65.0,60,(40, 40, 40),watthours,0.46280698979900536,0.4605216681957245
+lstm__granu300_hor120_lb60_drop0.2_pdflen5000_sigmoid_cal_lay40-40-40,300,70.0,60,(40, 40, 40),watthours,0.4344667180235007,0.404545396566391
+lstm__granu300_hor120_lb60_drop0.2_pdflen5000_sigmoid_cal_lay40-40-40,300,75.0,60,(40, 40, 40),watthours,0.43324981818211095,0.4159909784793854
+lstm__granu300_hor120_lb60_drop0.2_pdflen5000_sigmoid_cal_lay40-40-40,300,80.0,60,(40, 40, 40),watthours,0.4331326909894788,0.40825024247169495
+lstm__granu300_hor120_lb60_drop0.2_pdflen5000_sigmoid_cal_lay40-40-40,300,85.0,60,(40, 40, 40),watthours,0.42549705531480764,0.41141146421432495
+lstm__granu300_hor120_lb60_drop0.2_pdflen5000_sigmoid_cal_lay40-40-40,300,90.0,60,(40, 40, 40),watthours,0.4249785535401188,0.398515522480011
+lstm__granu300_hor120_lb60_drop0.2_pdflen5000_sigmoid_cal_lay40-40-40,300,95.0,60,(40, 40, 40),watthours,0.423170041866386,0.40664616227149963
+lstm__granu300_hor120_lb60_drop0.2_pdflen5000_sigmoid_cal_lay40-40-40,300,100.0,60,(40, 40, 40),watthours,0.42394465241623164,0.3980642259120941
+lstm__granu300_hor120_lb60_drop0.2_pdflen5000_sigmoid_cal_lay40-40-40,300,105.0,60,(40, 40, 40),watthours,0.41949278403432555,0.39325594902038574
+lstm__granu300_hor120_lb60_drop0.2_pdflen5000_sigmoid_cal_lay40-40-40,300,110.0,60,(40, 40, 40),watthours,0.41914118630566793,0.3865948021411896
+lstm__granu300_hor120_lb60_drop0.2_pdflen5000_sigmoid_cal_lay40-40-40,300,115.0,60,(40, 40, 40),watthours,0.4228112337660879,0.3962637186050415
+lstm__granu300_hor120_lb60_drop0.2_pdflen5000_sigmoid_cal_lay40-40-40,300,120.0,60,(40, 40, 40),watthours,0.41852942642491214,0.4038887023925781
+lstm__granu300_hor5_lb60_drop0.2_pdflen5000_sigmoid_cal_lay40-40-40,300,5.0,60,(40, 40, 40),watthours,0.012939512193735984,0.0017759480979293585
+lstm__granu300_hor5_lb60_drop0.2_pdflen5000_sigmoid_cal_lay40-40-40,300,5.0,60,(40, 40, 40),watthours,0.012512892319547074,0.0016719348495826125
+lstm__granu300_hor5_lb60_drop0.2_pdflen5000_sigmoid_cal_lay40-40-40,300,5.0,60,(40, 40, 40),watthours,0.49626223017602095,0.7804399728775024
+lstm__granu300_hor5_lb60_drop0.2_pdflen5000_sigmoid_cal_lay40-40-40,300,5.0,60,(40, 40, 40),watthours,0.4923826534863023,0.7500266432762146
+lstm__granu300_hor5_lb60_drop0.2_pdflen5000_sigmoid_cal_lay40-40-40,300,5.0,60,(40, 40, 40),watthours,0.459647809597048,0.746637761592865
+lstm__granu300_hor5_lb60_drop0.2_pdflen5000_sigmoid_cal_lay40-40-40,300,5.0,60,(40, 40, 40),watthours,0.4417518089941093,0.7538796067237854
+lstm__granu300_hor5_lb60_drop0.2_pdflen5000_sigmoid_cal_lay40-40-40,300,5.0,60,(40, 40, 40),watthours,0.4220977509003219,0.7711789011955261
+lstm__granu300_hor5_lb60_drop0.2_pdflen5000_sigmoid_cal_lay40-40-40,300,5.0,60,(40, 40, 40),watthours,0.4071952372464941,0.7873024344444275
+lstm__granu300_hor5_lb60_drop0.2_pdflen5000_sigmoid_cal_lay40-40-40,300,5.0,60,(40, 40, 40),watthours,0.3965067609009068,0.7999607920646667
+lstm__granu300_hor5_lb60_drop0.2_pdflen5000_sigmoid_cal_lay40-40-40,300,5.0,60,(40, 40, 40),watthours,0.38018412755955805,0.8234584927558899
+lstm__granu300_hor5_lb600_drop0.2_pdflen5000_sigmoid_cal_lay40-40-40,300,5.0,600,(40, 40, 40),watthours,0.5302633179728028,0.8321747779846191
+lstm__granu300_hor5_lb60_drop0.2_pdflen5000_linear_cal_lay40-40-40,300,5.0,60,(40, 40, 40),watthours,0.5277428841145932,0.7842714190483093
+lstm__granu300_hor5_lb60_drop0.4_pdflen5000_sigmoid_cal_lay40-40-40,300,5.0,60,(40, 40, 40),watthours,0.5684025251476057,0.7857017517089844
+lstm__granu300_hor5_lb60_drop0.2_pdflen5000_sigmoid_cal_lay40-40-40,300,5.0,60,(40, 40, 40),watthours,0.34148125867265194,0.9802399345984062
+lstm__granu300_hor5_lb60_drop0.2_pdflen5000_sigmoid_cal_lay40-40-40,300,5.0,60,(40, 40, 40),watthours,0.294293865695897,1.1208749645718592
+lstm__granu300_hor5_lb60_drop0.2_pdflen5000_sigmoid_cal_lay40-40-40,300,5.0,60,(40, 40, 40),watthours,0.23102805877037774,1.2028498675266457
+lstm__granu300_hor5_lb60_drop0.2_pdflen5000_sigmoid_cal_lay40-40-40,300,5.0,60,(40, 40, 40),watthours,0.18456628521437965,1.3606739557111887
+lstm__granu300_hor5_lb60_drop0.2_pdflen5000_sigmoid_cal_lay40-40-40,300,5.0,60,(40, 40, 40),watthours,0.08757429130572368,1.8470690332872062
+lstm__granu300_hor5_lb60_drop0.2_pdflen5000_sigmoid_cal_lay40-40-40,300,5.0,60,(40, 40, 40),watthours,0.06687697922799325,2.067287904038951
+lstm__granu300_hor120_lb60_drop0.2_pdflen5000_sigmoid_cal_lay40-40-40,300,5.0,60,(40, 40, 40),watthours,0.3394708492990131,11.602868576049804
+lstm__granu300_hor120_lb60_drop0.2_pdflen5000_sigmoid_cal_lay40-40-40,300,10.0,60,(40, 40, 40),watthours,0.32990889342615987,11.731776523590089
+lstm__granu300_hor120_lb60_drop0.2_pdflen5000_sigmoid_cal_lay40-40-40,300,15.0,60,(40, 40, 40),watthours,0.3408838616816959,12.000649538040161
+lstm__granu300_hor120_lb60_drop0.2_pdflen5000_sigmoid_cal_lay40-40-40,300,20.0,60,(40, 40, 40),watthours,0.2956625030694229,12.834439563751221
+lstm__granu300_hor120_lb60_drop0.2_pdflen5000_sigmoid_cal_lay40-40-40,300,25.0,60,(40, 40, 40),watthours,0.2997628355652877,13.170400371551514
+lstm__granu300_hor120_lb60_drop0.2_pdflen5000_sigmoid_cal_lay40-40-40,300,30.0,60,(40, 40, 40),watthours,0.24742177091492282,13.342932357788087
+lstm__granu300_hor120_lb60_drop0.2_pdflen5000_sigmoid_cal_lay40-40-40,300,35.0,60,(40, 40, 40),watthours,0.26763761621691257,13.762361335754395
+lstm__granu300_hor120_lb60_drop0.2_pdflen5000_sigmoid_cal_lay40-40-40,300,40.0,60,(40, 40, 40),watthours,0.2723337870291685,14.03062774658203
+lstm__granu300_hor120_lb60_drop0.2_pdflen5000_sigmoid_cal_lay40-40-40,300,45.0,60,(40, 40, 40),watthours,0.26465387575244426,13.99819808959961
+lstm__granu300_hor120_lb60_drop0.2_pdflen5000_sigmoid_cal_lay40-40-40,300,50.0,60,(40, 40, 40),watthours,0.25394846327388393,14.455451545715333
+lstm__granu300_hor120_lb60_drop0.2_pdflen5000_sigmoid_cal_lay40-40-40,300,55.0,60,(40, 40, 40),watthours,0.23846213486003637,14.389180183410645
+lstm__granu300_hor120_lb60_drop0.2_pdflen5000_sigmoid_cal_lay40-40-40,300,60.0,60,(40, 40, 40),watthours,0.21712732240464422,14.586304302215575
+lstm__granu300_hor120_lb60_drop0.2_pdflen5000_sigmoid_cal_lay40-40-40,300,65.0,60,(40, 40, 40),watthours,0.23176698880887897,15.21557149887085
+lstm__granu300_hor120_lb60_drop0.2_pdflen5000_sigmoid_cal_lay40-40-40,300,70.0,60,(40, 40, 40),watthours,0.318533922129489,14.757455463409423
+lstm__granu300_hor120_lb60_drop0.2_pdflen5000_sigmoid_cal_lay40-40-40,300,75.0,60,(40, 40, 40),watthours,0.2604840417603527,15.08378261566162
+lstm__granu300_hor120_lb60_drop0.2_pdflen5000_sigmoid_cal_lay40-40-40,300,80.0,60,(40, 40, 40),watthours,0.2288908795436124,15.680813598632813
+lstm__granu300_hor120_lb60_drop0.2_pdflen5000_sigmoid_cal_lay40-40-40,300,85.0,60,(40, 40, 40),watthours,0.22126776360450906,15.993100891113281
+lstm__granu300_hor120_lb60_drop0.2_pdflen5000_sigmoid_cal_lay40-40-40,300,90.0,60,(40, 40, 40),watthours,0.2164903595316246,15.969538803100585
+lstm__granu300_hor120_lb60_drop0.2_pdflen5000_sigmoid_cal_lay40-40-40,300,95.0,60,(40, 40, 40),watthours,0.257161966887523,15.777489128112792
+lstm__granu300_hor120_lb60_drop0.2_pdflen5000_sigmoid_cal_lay40-40-40,300,100.0,60,(40, 40, 40),watthours,0.2208978842957894,16.027597465515136
+lstm__granu300_hor120_lb60_drop0.2_pdflen5000_sigmoid_cal_lay40-40-40,300,105.0,60,(40, 40, 40),watthours,0.22403154334750433,16.263141040802
+lstm__granu300_hor120_lb60_drop0.2_pdflen5000_sigmoid_cal_lay40-40-40,300,110.0,60,(40, 40, 40),watthours,0.19899609330598642,16.212900676727294
+lstm__granu300_hor120_lb60_drop0.2_pdflen5000_sigmoid_cal_lay40-40-40,300,115.0,60,(40, 40, 40),watthours,0.20255744490814448,15.924082832336426
+lstm__granu300_hor120_lb60_drop0.2_pdflen5000_sigmoid_cal_lay40-40-40,300,120.0,60,(40, 40, 40),watthours,0.20748556225335643,16.521957931518553
+lstm__granu300_hor5_lb60_drop0.2_pdflen5000_sigmoid_cal_lay40-40-40,300,5.0,60,(40, 40, 40),watthours,0.09101227942048855,2.0533150399835844
+lstm__granu300_hor120_lb60_drop0.5_pdflen5000_sigmoid_cal_lay40-40-40,300,5.0,60,(40, 40, 40),watthours,0.9396998725635686,10.816167821884155
+lstm__granu300_hor5_lb60_drop0.5_pdflen5000_sigmoid_cal_lay40-40-40,300,5.0,60,(40, 40, 40),watthours,4.541288653502754,1.0856340056035056
+lstm__granu300_hor5_lb60_drop0.5_pdflen5000_sigmoid_cal_lay40-40-40,300,5.0,60,(40, 40, 40),watthours,0.5557836057238779,0.8669587504767363
+lstm__granu300_hor5_lb60_drop0.5_pdflen5000_sigmoid_cal_lay40-40-40,300,5.0,60,(40, 40, 40),watthours,0.5784242247093706,0.9036133176003077
+lstm__granu300_hor5_lb60_drop0.5_pdflen5000_sigmoid_cal_lay40-40-40,300,5.0,60,(40, 40, 40),watthours,0.6052125056090288,0.9163169946558588
+lstm__granu300_hor5_lb60_drop0.2_pdflen5000_sigmoid_cal_lay40-40-40,300,5.0,60,(40, 40, 40),watthours,0.07647864549488849,2.023619355657022
+lstm__granu300_hor5_lb60_drop0.2_pdflen5000_sigmoid_cal_lay40-40-40,300,5.0,60,(40, 40, 40),watthours,0.06161263005034549,2.1009408909391927
+lstm__granu300_hor5_lb60_drop0.2_pdflen5000_sigmoid_cal_lay40-40-40,300,5.0,60,(40, 40, 40),watthours,0.0539948917803692,2.231049016775999
+lstm__granu300_hor5_lb60_drop0.2_pdflen200_sigmoid_cal_lay40-40-40,300,5.0,60,(40, 40, 40),watthours,0.9520538296064529,0.8444454753657636
+lstm__granu300_hor5_lb60_drop0.2_pdflen200_sigmoid_cal_lay40-40-40,300,5.0,60,(40, 40, 40),watthours,0.7415942509407929,0.7457936314162602
+lstm__granu300_hor5_lb60_drop0.2_pdflen200_sigmoid_cal_lay50-50-50,300,5.0,60,(50, 50, 50),watthours,0.7368869049605346,0.7500401379365731
+lstm__granu300_hor5_lb60_drop0.2_pdflen200_sigmoid_cal_lay50-50-50,300,5.0,60,(50, 50, 50),watthours,0.7096200671004338,0.75255504027341
+lstm__granu300_hor5_lb60_drop0.2_pdflen200_sigmoid_cal_lay50-50-50,300,5.0,60,(50, 50, 50),watthours,0.6794014260386754,0.7636104550480894
+lstm__granu300_hor5_lb60_drop0.2_pdflen200_sigmoid_cal_lay50-50-50,300,5.0,60,(50, 50, 50),watthours,0.6301672802779058,0.8069990566017745
+lstm__granu300_hor5_lb60_drop0.5_pdflen200_sigmoid_cal_lay50-50-50,300,5.0,60,(50, 50, 50),watthours,0.7439152589953141,0.7503520185635215
+lstm__granu300_hor5_lb60_drop0.5_pdflen200_sigmoid_cal_lay50-50-50,300,5.0,60,(50, 50, 50),watthours,0.7433131707822144,0.745696632182168
+lstm__granu300_hor5_lb60_drop0.5_pdflen200_sigmoid_cal_lay50-50-50,300,5.0,60,(50, 50, 50),watthours,0.7455158168650288,0.7476618639975936
+lstm__granu300_hor5_lb60_drop0.5_pdflen200_sigmoid_cal_lay50-50-50,300,5.0,60,(50, 50, 50),watthours,0.7464591633614075,0.749492824283228
+lstm__granu300_hor5_lb60_drop0.5_pdflen200_sigmoid_cal_lay50-50-50,300,5.0,60,(50, 50, 50),watthours,0.7478407762162815,0.7446191158229736
+lstm__granu300_hor5_lb240_drop0.7_pdflen200_sigmoid_cal_lay50-50-50,300,5.0,240,(50, 50, 50),watthours,0.7785751050557461,0.744434044120776
+lstm__granu300_hor5_lb240_drop0.7_pdflen200_sigmoid_cal_lay50-50-50,300,5.0,240,(50, 50, 50),watthours,0.6926118661167745,0.9134063443991696
+lstm__granu300_hor5_lb240_drop0.7_pdflen200_sigmoid_cal_lay50-50-50,300,5.0,240,(50, 50, 50),watthours,0.6493498306243409,1.0672336878215833
+lstm__granu300_hor5_lb240_drop0.7_pdflen200_sigmoid_cal_lay50-50-50,300,5.0,240,(50, 50, 50),watthours,0.6320855627212225,1.146377369459455
+lstm__granu300_hor5_lb240_drop0.7_pdflen200_sigmoid_cal_lay50-50-50,300,5.0,240,(50, 50, 50),watthours,0.6152030630466427,1.1734229312657627
+lstm__granu300_hor5_lb240_drop0.7_pdflen200_sigmoid_cal_lay50-50-50,300,5.0,240,(50, 50, 50),watthours,0.7420089000108981,0.7881707960971227
+lstm__granu300_hor5_lb240_drop0.7_pdflen200_sigmoid_cal_lay50-50-50,300,5.0,240,(50, 50, 50),watthours,0.7378766506220693,0.7873824116319816
+lstm__granu1800_hor30_lb240_drop0.5_pdflen10_sigmoid_cal_lay50-50-50,1800,30.0,240,(50, 50, 50),watthours,0.5708807516806365,0.5335438349928174
+lstm__granu1800_hor30_lb240_drop0.5_pdflen10_sigmoid_cal_lay50-50-50,1800,30.0,240,(50, 50, 50),watthours,0.5400906600044244,0.5262379099300929
+lstm__granu1800_hor30_lb240_drop0.5_pdflen10_sigmoid_cal_lay50-50-50,1800,30.0,240,(50, 50, 50),watthours,0.5262511193862968,0.49935069165910995
+lstm__granu1800_hor30_lb240_drop0.5_pdflen10_sigmoid_cal_lay50-50-50,1800,30.0,240,(50, 50, 50),watthours,0.42826411284271126,0.5791022626331874
+lstm__granu1800_hor30_lb240_drop0.5_pdflen10_sigmoid_cal_lay50-50-50,1800,30.0,240,(50, 50, 50),watthours,0.4162476752642444,0.5937063420159476
+lstm__granu1800_hor30_lb240_drop0.5_pdflen10_sigmoid_cal_lay50-50-50,1800,30.0,240,(50, 50, 50),watthours,0.4258866928897744,0.5731901821408953
+lstm__granu1800_hor30_lb240_drop0.7_pdflen10_sigmoid_cal_lay50-50-50,1800,30.0,240,(50, 50, 50),watthours,0.5230275316004531,0.49869712008748734
+lstm__granu1800_hor30_lb240_drop0.5_pdflen10_sigmoid_lay50-50-50,1800,30.0,240,(50, 50, 50),watthours,0.5696200244197878,0.7821147257259914
