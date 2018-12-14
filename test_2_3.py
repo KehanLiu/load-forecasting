@@ -49,14 +49,14 @@ define all parameters start
 '''
 
 prefix = 'lstm_'
-model_identifier='DHW_1'
-dataset_identifier='DHW_1'
+model_identifier='DHW_3'
+dataset_identifier='DHW_3'
 forecast_horizon_mins = 5
 # forecast_horizon 1 day or 5 mins
 granularity_s = 300
 #forecast for every 5 mins
-look_back_mins = 240
-hidden_neurons=(50, 50, 50)
+look_back_mins = 60
+hidden_neurons=(40, 40)
 sliding_window_width = int(dt.timedelta(minutes=look_back_mins).total_seconds() / granularity_s)
 #回看多少个数据
 nb_input_neurons = sliding_window_width
@@ -68,13 +68,13 @@ forecast_type='watthours'
 
 learning_rate=0.01
 validation_split=0.0
-batch_size = 32
+batch_size = 128
 #batch_size will be changed(not global) in generating an output of type [0,0,...,Pt,...,0,0] to be compared against the pdf output from the model
-nb_epoch=10
+nb_epoch=500
 epochs = nb_epoch
 verbose=1
 patience=50
-dropout=0.5 
+dropout=0.5
 use_cal_vars=True
 activation='sigmoid'
 '''
@@ -380,7 +380,7 @@ def train(model, X_train, y_train,X_val, y_val,
     """
     csv_logger = CSVLogger(os.path.join(model_directory, 'log.csv'), append = True)
     #将epoch的训练结果保存在csv文件中，支持所有可被转换为string的值，包括1D的可迭代数值如np.ndarray.   append：默认为False，为True时csv文件如果存在则继续写入，为False时总是覆盖csv文件
-    early_stopping = EarlyStopping(monitor='loss', mode='min', min_delta=0.0000000001, patience=patience, verbose=verbose)
+    early_stopping = EarlyStopping(monitor='loss', mode='min', min_delta=0.000001, patience=patience, verbose=verbose)
     
     tbCallBack = TensorBoard(log_dir='./Graph', histogram_freq=1, write_graph=True, write_images=True) 
     

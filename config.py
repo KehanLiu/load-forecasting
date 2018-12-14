@@ -1,6 +1,6 @@
 """ Folders """
 
-working_directory = r'E:\Git\model\ann_forecast\prob_LSTM'
+working_directory = r'E:\Github\load-forecast\prob_LSTM'
 preprocessed_datasets_folder = 'preprocessed_datasets/'
 raw_datasets_folder = 'raw_datasets/'
 trained_models_folder = 'trained_models/'

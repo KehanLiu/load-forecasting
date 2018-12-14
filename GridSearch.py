@@ -331,14 +331,14 @@ dataset = open_dataset_file(filename, preprocessed_datasets_folder)
 seed = 7
 np.random.seed(seed)
 
-model = scikit_learn.KerasClassifier(build_fn=generate_model, verbose=1, epochs = 50)
+model = scikit_learn.KerasClassifier(build_fn=generate_model, verbose=1, epochs = 100)
 
-batch_size = [16, 128, 512]
+batch_size = [64, 128]
 #epochs = [50, 100, 200]
-dropout_rate = [0.7]
-learning_rate = [0.001, 0.1]
-nb_hidden_layers = [2, 3]
-nb_hidden_neurons = [30, 50]
+dropout_rate = [0.5, 0.7]
+learning_rate = [0.01, 0.1]
+nb_hidden_layers = [1, 2]
+nb_hidden_neurons = [40, 50]
 
 param_grid = dict(batch_size=batch_size, dropout_rate=dropout_rate, learning_rate=learning_rate, nb_hidden_layers=nb_hidden_layers, nb_hidden_neurons=nb_hidden_neurons)
 grid = GridSearchCV(estimator=model, param_grid=param_grid, n_jobs=1, scoring='neg_log_loss', cv=3)
