@@ -41,7 +41,7 @@ class Mdn_feedforward(Ann_model):
                  dropout=0,
                  scaling_factor=5000.0,
                  forecast_type='watthours',
-                 learning_rate=0.0001,
+                 learning_rate=0.001,
                  use_cal_vars=False,
                  activation='sigmoid',
                  nb_kernels=5):

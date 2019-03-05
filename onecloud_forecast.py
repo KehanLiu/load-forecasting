@@ -468,7 +468,7 @@ def fit_lstm(raw_data, forecast_horizon_mins,
             '''
             for new model active
             '''
-            #os.mkdir(model_directory)
+            os.mkdir(model_directory)
             ###mind this
             
             

@@ -16,9 +16,9 @@ from keras import backend as K
 import utils
 from metrics import mean_neg_log_loss_parametric, mean_neg_log_loss_discrete
 import config
-from ann_forecast.ann_abstr import Ann_model
+from ann_abstr import Ann_model
 
-tf.python.control_flow_ops = tf  # bug fix for tensorflow dropout
+# tf.python.control_flow_ops = tf  # bug fix for tensorflow dropout
 
 
 
