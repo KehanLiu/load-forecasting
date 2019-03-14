@@ -510,3 +510,5 @@ lstm__granu300_hor20_lb60_drop0.7_pdflen50_sigmoid_cal_lay50-50,300,5.0,60,(50, 
 lstm__granu300_hor20_lb60_drop0.7_pdflen50_sigmoid_cal_lay50-50,300,10.0,60,(50, 50),watthours,0.1394095761080583,0.0
 lstm__granu300_hor20_lb60_drop0.7_pdflen50_sigmoid_cal_lay50-50,300,15.0,60,(50, 50),watthours,0.13353592637512418,0.0
 lstm__granu300_hor20_lb60_drop0.7_pdflen50_sigmoid_cal_lay50-50,300,20.0,60,(50, 50),watthours,0.133265863193406,0.0
+lstm__granu900_hor15_lb60_drop0.7_pdflen50_sigmoid_cal_lay50-50,900,15.0,60,(50, 50),watthours,2.274811552437463,2.4254535055415514
+lstm__granu900_hor15_lb60_drop0.7_pdflen50_sigmoid_cal_lay50-50,900,15.0,60,(50, 50),watthours,2.458982175351082,2.319280359706777

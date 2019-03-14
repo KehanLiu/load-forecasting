@@ -49,12 +49,13 @@ define all parameters start
 '''
 
 prefix = 'lstm_'
-model_identifier='DHW_3'
-dataset_identifier='DHW_3'
-forecast_horizon_mins = 5
+forecast_horizon_mins = 15
 # forecast_horizon 1 day or 5 mins
-granularity_s = 300
-#forecast for every 5 mins
+
+forecast_forward_mins = 1440
+# use dataset to predict 240min forwards values 
+granularity_s = 900
+#forecast for every 15 mins
 look_back_mins = 60
 hidden_neurons=(50, 50)
 sliding_window_width = int(dt.timedelta(minutes = look_back_mins).total_seconds() / granularity_s)
@@ -95,7 +96,8 @@ cleanse=False
 
 keras.backend.clear_session()
 
-filename_input = "onecloud_2018Q2.csv"
+filename_input = "onecloud_elec_manufac.csv"
+
 '''
 define all parameters end
 '''
@@ -209,6 +211,9 @@ def generate_training_data_lstm(dataset, train_cv_test_split=train_cv_test_split
 
     nb_forecast_steps = int(dt.timedelta(minutes=forecast_horizon_mins).total_seconds() / granularity_s)
 
+    result_shifting_step = int(dt.timedelta(
+        minutes=forecast_forward_mins).total_seconds() / granularity_s)
+
     nb_examples = len(np.array(ds.watthour)) - nb_forecast_steps - sliding_window_width
 
     #history_offset = sliding_window_width + nb_forecast_steps - 1
@@ -269,20 +274,23 @@ def generate_training_data_lstm(dataset, train_cv_test_split=train_cv_test_split
     val_idx = int(len(y) * train_cv_test_split[0])
     test_idx = int(len(y) * (train_cv_test_split[0] + train_cv_test_split[1]))
 
-    y_train = y[0:val_idx]
-    X_train = X[0:val_idx, :]
-    ground_truth_train = ground_truth[0:val_idx]
-    t0_train = t0[0:val_idx]
+    y_train = y[result_shifting_step: val_idx + result_shifting_step]
+    X_train = X[0: val_idx, :]
+    ground_truth_train = ground_truth[result_shifting_step: val_idx +
+                                      result_shifting_step]
+    t0_train = t0[0: val_idx]
 
-    y_val = y[val_idx:test_idx]
+    y_val = y[result_shifting_step + val_idx: test_idx + result_shifting_step]
     t0_val = t0[val_idx:test_idx]
-    ground_truth_val = ground_truth[val_idx:test_idx]
+    ground_truth_val = ground_truth[val_idx +
+                                    result_shifting_step: test_idx + result_shifting_step]
     X_val = X[val_idx:test_idx, :]
 
-    y_test = y[test_idx:]
-    t0_test = t0[test_idx:]
-    ground_truth_test = ground_truth[test_idx:]
-    X_test = X[test_idx:, :]
+    y_test = y[test_idx + result_shifting_step:]
+    t0_test = t0[test_idx: len(y)-result_shifting_step]
+    ground_truth_test = ground_truth[test_idx +
+                                     result_shifting_step:]
+    X_test = X[test_idx: len(y)-result_shifting_step, :]
 
     return (X_train, y_train, ground_truth_train, t0_train), \
            (X_val, y_val, ground_truth_val, t0_val), \
@@ -486,8 +494,8 @@ def fit_lstm(raw_data, forecast_horizon_mins,
             init_weights(model, model_name, model_directory, working_directory)
             
             
-            # optimizer_generated = SGD(lr = learning_rate, momentum = 0.0, decay = 0.0, nesterov = False)
-            model.compile(loss = loss_func, optimizer = 'adam')
+            optimizer_generated = SGD(lr = learning_rate, momentum = 0.0, decay = 0.0, nesterov = False)
+            model.compile(loss = loss_func, optimizer = optimizer_generated)
             
             train(model, X_train, y_train, X_val, y_val, batch_size, nb_epoch, verbose, patience, model_directory, model_name, granularity_s, forecast_horizon_mins, look_back_mins, hidden_neurons, forecast_type)
             
@@ -700,17 +708,16 @@ generate dataset filename, dataset preprocess, open datasetfile
 '''
 def main():
 
-	global filename, dataset_identifier, preprocessed_datasets_folder
+	global filename, preprocessed_datasets_folder
 
-	global forecast_horizon_mins
+	global forecast_horizon_mins, forecast_forward_mins
 	global look_back_mins, hidden_neurons, dropout, epochs, use_cal_vars, pdf_sample_points_min, pdf_sample_points_max, pdf_resolution
 	global X_test, model_list, custom_granularity, granularity, nb_lagged_vals, use_cal_vars
 	global model_type, scaling_factor, pdf_resolution
 
-	
 	dataset = open_dataset_file(filename_input, preprocessed_datasets_folder)
 
-	print("Load %s", filename_input)
+	print("Load ", filename_input)
 
 	model_list, custom_granularity, granularity, nb_lagged_vals, \
 	use_cal_vars, model_type, scaling_factor, \
