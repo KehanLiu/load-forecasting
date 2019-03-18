@@ -49,6 +49,8 @@ model_identifier='DHW_3'
 dataset_identifier='DHW_3'
 forecast_horizon_mins = 5
 # forecast_horizon 1 day or 5 mins
+forecast_forward_mins = 1440
+# use dataset to predict 240min forwards values
 granularity_s = 300
 #forecast for every 5 mins
 look_back_mins = 60
@@ -74,6 +76,8 @@ train_cv_test_split=(0.8, 0.1, 0.1)
 cleanse=False
 
 activation='sigmoid'
+
+filename_input = "onecloud_2018Q2_lite.csv"
 
 keras.backend.clear_session()
 '''
@@ -191,6 +195,9 @@ def generate_training_data_lstm(dataset, train_cv_test_split=train_cv_test_split
 
     nb_forecast_steps = int(dt.timedelta(minutes=forecast_horizon_mins).total_seconds() / granularity_s)
 
+    result_shifting_step = int(dt.timedelta(
+        minutes=forecast_forward_mins).total_seconds() / granularity_s)
+
     nb_examples = len(np.array(ds.watthour)) - nb_forecast_steps - sliding_window_width
 
     #history_offset = sliding_window_width + nb_forecast_steps - 1
@@ -251,20 +258,23 @@ def generate_training_data_lstm(dataset, train_cv_test_split=train_cv_test_split
     val_idx = int(len(y) * train_cv_test_split[0])
     test_idx = int(len(y) * (train_cv_test_split[0] + train_cv_test_split[1]))
 
-    y_train = y[0:val_idx]
-    X_train = X[0:val_idx, :]
-    ground_truth_train = ground_truth[0:val_idx]
-    t0_train = t0[0:val_idx]
+    y_train = y[result_shifting_step: val_idx + result_shifting_step]
+    X_train = X[0: val_idx, :]
+    ground_truth_train = ground_truth[result_shifting_step: val_idx +
+                                      result_shifting_step]
+    t0_train = t0[0: val_idx]
 
-    y_val = y[val_idx:test_idx]
+    y_val = y[result_shifting_step + val_idx: test_idx + result_shifting_step]
     t0_val = t0[val_idx:test_idx]
-    ground_truth_val = ground_truth[val_idx:test_idx]
+    ground_truth_val = ground_truth[val_idx +
+                                    result_shifting_step: test_idx + result_shifting_step]
     X_val = X[val_idx:test_idx, :]
 
-    y_test = y[test_idx:]
-    t0_test = t0[test_idx:]
-    ground_truth_test = ground_truth[test_idx:]
-    X_test = X[test_idx:, :]
+    y_test = y[test_idx + result_shifting_step:]
+    t0_test = t0[test_idx: len(y)-result_shifting_step]
+    ground_truth_test = ground_truth[test_idx +
+                                     result_shifting_step:]
+    X_test = X[test_idx: len(y)-result_shifting_step, :]
 
     return (X_train, y_train, ground_truth_train, t0_train), \
            (X_val, y_val, ground_truth_val, t0_val), \
@@ -316,11 +326,9 @@ def generate_model(dropout_rate, learning_rate, nb_hidden_layers, nb_hidden_neur
     return model
 
 
+dataset = open_dataset_file(filename_input, preprocessed_datasets_folder)
 
-
-filename = generate_dataset_filename(dataset_identifier=dataset_identifier)
-
-dataset = open_dataset_file(filename, preprocessed_datasets_folder)
+print("Load ", filename_input)
 
 (X_train, y_train, ground_truth_train, t0_train), \
            (X_val, y_val, ground_truth_val, t0_val), \
@@ -333,7 +341,7 @@ np.random.seed(seed)
 
 model = scikit_learn.KerasClassifier(build_fn=generate_model, verbose=1, epochs = 100)
 
-batch_size = [64, 128]
+batch_size = [128]
 #epochs = [50, 100, 200]
 dropout_rate = [0.5, 0.7]
 learning_rate = [0.01, 0.1]

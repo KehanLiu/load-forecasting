@@ -67,7 +67,7 @@ preprocessed_datasets_folder=config.preprocessed_datasets_folder
 
 forecast_type = 'watthours'
 
-learning_rate = 0.1
+learning_rate = 0.01
 validation_split = 0.0
 batch_size  =  128
 #batch_size will be changed(not global) in generating an output of type [0,0,...,Pt,...,0,0] to be compared against the pdf output from the model
@@ -96,7 +96,7 @@ cleanse=False
 
 keras.backend.clear_session()
 
-filename_input = "onecloud_elec_manufac.csv"
+filename_input = "onecloud_2018Q1Q2.csv"
 
 '''
 define all parameters end
@@ -354,6 +354,12 @@ def generate_model_name():
     name = name[:-1]
     return name[:249]  # limit length of name for ntfs file system
 
+
+def root_mean_squared_error(y_true, y_pred):
+        return K.sqrt(K.mean(K.square(y_pred - y_true), axis=-1))
+
+
+
 def init_weights(model, model_name, model_directory, working_directory):
     """
 	Tries to restore previously saved model weights.
@@ -476,7 +482,7 @@ def fit_lstm(raw_data, forecast_horizon_mins,
             '''
             for new model active
             '''
-            os.mkdir(model_directory)
+            # os.mkdir(model_directory)
             ###mind this
             
             
@@ -494,8 +500,8 @@ def fit_lstm(raw_data, forecast_horizon_mins,
             init_weights(model, model_name, model_directory, working_directory)
             
             
-            optimizer_generated = SGD(lr = learning_rate, momentum = 0.0, decay = 0.0, nesterov = False)
-            model.compile(loss = loss_func, optimizer = optimizer_generated)
+            # optimizer_generated = SGD(lr = learning_rate, momentum = 0.0, decay = 0.0, nesterov = False)
+            model.compile(loss=root_mean_squared_error, optimizer='adam')
             
             train(model, X_train, y_train, X_val, y_val, batch_size, nb_epoch, verbose, patience, model_directory, model_name, granularity_s, forecast_horizon_mins, look_back_mins, hidden_neurons, forecast_type)
             

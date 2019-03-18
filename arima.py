@@ -99,7 +99,7 @@ def ts_diff_describe(ts_log):
 
 def regroup_time_preprocess(data):
     # 求和 小时计算
-    y = data.resample('D').sum()
+    y = data.resample('H').sum()
     
     #处理数据中的缺失项
     y = y.fillna(y.bfill())  # 填充缺失值
@@ -157,7 +157,7 @@ def fit_arima(y):
     estimate_arima 获得的param, param_seasonal
     在这里输入
     """
-    param = (1, 0, 1)
+    param = (0, 1, 1)
     param_seasonal = (0, 1, 1, 12)
     mod = sm.tsa.statespace.SARIMAX(y,
                                     order = param,
@@ -178,7 +178,7 @@ def pred_arima(pred_start_t, res, y):
     # @y 不分割的原始数据
     
     pred = res.get_prediction(
-        start=pd.to_datetime(pred_start_t), dynamic=False)
+        start=pd.to_datetime(pred_start_t), dynamic=True)
 
     pred_ci = pred.conf_int()
     ax = y[pred_start_t:].plot(label="real")
@@ -201,13 +201,13 @@ def pred_arima(pred_start_t, res, y):
 
 
 def main():
-    data = open_dataset_file("DHW_3_granu300_6m_b.csv")
+    data = open_dataset_file("onecloud_usr_elec_manufac.csv")
     preprocess_data = regroup_time_preprocess(data)
     # 求和 
-    # pdq, seasonal_pdq = init_arima()
-    # estimate_arima(pdq, seasonal_pdq, preprocess_data)
-    res = fit_arima(preprocess_data)
-    pred_arima('2017-10-15', res, preprocess_data)
+    pdq, seasonal_pdq = init_arima()
+    estimate_arima(pdq, seasonal_pdq, preprocess_data)
+    # res = fit_arima(preprocess_data)
+    # pred_arima('2017-11-10', res, preprocess_data)
     
     # estimating
     # ts_log = np.log(ts)
