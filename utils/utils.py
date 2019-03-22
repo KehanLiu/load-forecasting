@@ -2,10 +2,10 @@ import os.path
 import datetime as dt
 import pandas as pd
 
-def generate_dataset_filename(dataset_identifier, granularity_s):
+def generate_dataset_filename(model_identifier, granularity_s):
 	"""
 	"""
-	name = str(dataset_identifier) + '_granu' + str(granularity_s) + '.csv'
+	name = str(model_identifier) + '_granu' + str(granularity_s) + '.csv'
 	return name
 
 def open_dataset_file(filename, working_dir, preprocessed_datasets_folder):
